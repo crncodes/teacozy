@@ -63,7 +63,6 @@ h4 {
 }
 #month {
   margin: auto;
-  border: thin solid white;
   width: 1000px;
   padding: 60px;
   align-items: center;
@@ -87,4 +86,53 @@ h4 {
 .teapics {
   width: 300px;
   height: 200px;
+}
+
+#locations {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 1200px;
+  background-image: url(../../resources/images/img-locations-background.jpg);
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+#locations h2 {
+  display: block;
+  width: 1200px;
+}
+.stores {
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  margin: 15px auto;
+}
+.address {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 0 20px;
+  opacity: 1.0;
+  background-color: black;
+  justify-content: center;
+  align-items: baseline;
+}
+.address h3 {
+  display: block;
+}
+.address span {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 55px;
+}
+#contact {
+  display: block;
+  height: 200px;
+}
+footer {
+  text-align: left;
+  margin: 30px 20px;
 }

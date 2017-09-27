@@ -46,21 +46,19 @@ header {
   align-items: center;
 }
 #mission .mbox {
-  display: flex;
+  display: block;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
   width: 1200px;
   background-color: black;
   z-index: 2;
 }
-h2 {
-  margin: 0;
-  padding: 10px;
+.mbox h2, .mbox h4, #month h2, #month h3 {
+  display: block
+  margin: 0 auto;
+  padding: 0;
 }
-h4 {
-  margin: 0;
-  padding: 10px;
-}
+
 #month {
   margin: auto;
   width: 1000px;
@@ -82,6 +80,7 @@ h4 {
 }
 .box h4{
   padding: 10px;
+  margin: 0 auto;
 }
 .teapics {
   width: 300px;
@@ -102,6 +101,8 @@ h4 {
 }
 #locations h2 {
   display: block;
+  padding: 0;
+  margin: 0 auto;
   width: 1200px;
 }
 .stores {
@@ -131,6 +132,7 @@ h4 {
 #contact {
   display: block;
   height: 200px;
+  z-index:2;
 }
 footer {
   text-align: left;

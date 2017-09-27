@@ -14,6 +14,8 @@ header {
   height: 69px;
   width: 100%;
   align-items: center;
+  z-index: 10;
+  background-color: inherit;
 }
 .title {
   display: flex;
@@ -29,4 +31,60 @@ header {
   display: inline-block;
   text-decoration: underline;
   padding: 15px;
+}
+.container {
+  margin: auto;
+  padding-top: 69px;
+  width: 1200px;
+}
+#mission {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url(../../resources/images/img-mission-background.jpg);
+  z-index: 2;
+  align-items: center;
+}
+#mission .mbox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  background-color: black;
+  z-index: 2;
+}
+h2 {
+  margin: 0;
+  padding: 10px;
+}
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+#month {
+  margin: auto;
+  border: thin solid white;
+  width: 1000px;
+  padding: 60px;
+  align-items: center;
+  z-index: 2;
+}
+
+.teas {
+  display: inline-flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+
+}
+.box {
+  max-width: 300px;
+  margin: 15px;
+}
+.box h4{
+  padding: 10px;
+}
+.teapics {
+  width: 300px;
+  height: 200px;
 }
